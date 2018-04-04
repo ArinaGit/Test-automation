@@ -51,22 +51,32 @@ public class LoginTest {
 
     public void orgerHistory(){
         driver.findElement (By.xpath ("//*[@id=\"center_column\"]/div/div[1]/ul/li[1]/a/span")).click();
+        assertThat(driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/h1")).getText(),
+                containsString("Order history"));
     }
 
     public void myCredit(){
         driver.findElement (By.xpath ("//*[@id=\"center_column\"]/div/div[1]/ul/li[2]/a/span")).click();
+        assertThat(driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/h1")).getText(),
+                containsString("Credit slips"));
     }
 
     public void myAddresses(){
         driver.findElement (By.xpath ("//*[@id=\"center_column\"]/div/div[1]/ul/li[3]/a/span")).click();
+        assertThat(driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/h1")).getText(),
+                containsString("My addresses"));
     }
 
     public void myPersonalInfo(){
         driver.findElement (By.xpath ("//*[@id=\"center_column\"]/div/div[1]/ul/li[4]/a/span")).click();
+        assertThat(driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/h1")).getText(),
+                containsString("Your personal information"));
     }
 
     public void myWishlist(){
         driver.findElement (By.xpath ("//*[@id=\"center_column\"]/div/div[2]/ul/li/a/span")).click();
+        assertThat(driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div[2]/div/h1")).getText(),
+                containsString("My wishlists"));
     }
 
 }
