@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 import static org.hamcrest.core.StringContains.containsString;
 import static org.junit.Assert.assertThat;
 
-public class FirstTest {
+public class Explicit {
 
     static WebDriver driver;
 
