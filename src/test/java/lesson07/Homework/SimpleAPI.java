@@ -1,4 +1,4 @@
-package lesson07;
+package lesson07.Homework;
 
 import com.google.common.base.Function;
 import org.openqa.selenium.By;

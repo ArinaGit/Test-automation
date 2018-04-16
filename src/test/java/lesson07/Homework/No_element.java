@@ -1,12 +1,10 @@
-package lesson07;
+package lesson07.Homework;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
-
-import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElementLocated;
 
 @RunWith(JUnit4.class)
 public class No_element extends BaseTest {

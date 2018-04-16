@@ -1,4 +1,4 @@
-package lesson07;
+package lesson07.Homework;
 
 import org.junit.FixMethodOrder;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package lesson07;
+package lesson07.Homework;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
